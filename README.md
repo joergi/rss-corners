@@ -5,7 +5,7 @@ This project is totally inspired by the cool [github corner](https://github.com/
 
 top right corner:
 ```
-<a href="https://blog.joergi.io/feed.xml" aria-label="RSS Feed"><svg
+<svg
    width="80px"
    height="80px"
    id="RSS-icon"
@@ -21,5 +21,5 @@ top right corner:
     <path id="semicircle"
        style="fill: #FFF;"
        d="M 152.84244,201.24124 H 125.2972 A 66.432645,66.432645 0 0 0 58.864559,134.8086 v -27.54525 a 93.977887,93.977887 0 0 1 93.977881,93.97789 z"  />
-</svg></a>
+</svg>
 ```
