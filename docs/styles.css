@@ -1,0 +1,39 @@
+
+body{
+    font-size: 1.2em;
+}
+
+textarea{
+    width: 400px; 
+    height: 200px; 
+    margin: 10px; 
+}
+ 
+.display-table {
+    display: table; 
+    border: 1px dotted #CCC; 
+    margin-left: 20%;
+    margin-top: 30px;
+
+}
+.display-table > div { 
+    display: table-row; 
+}
+.display-table > div > div { 
+    display: table-cell;
+    width: 400px; 
+    border-right: 1px dotted #CCC; 
+    border-top: 1px dotted #CCC;
+    vertical-align: top;
+}
+.display-table > div > div.td-left { 
+    width: 300px; 
+}
+.display-table > div > div.td-right { 
+    background-color: #EEE;
+}
+code{
+    padding: 5px; 
+    background-color: #222;
+    color:#CCC;
+}
